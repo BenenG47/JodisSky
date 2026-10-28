@@ -35,6 +35,7 @@ A dark city under the moon, the haze thickening between the towers, the room lit
   ![Heavy rain at night: rain over the city, drops on the window, the moon through the haze](images/HeavyRain.png)
 
 - **Storms**: lightning by day and by night, a bolt in the sky where you can see it from the office and the bedroom, a flash on the room and on Jodi, and thunder that arrives a few seconds later: a crack and a rolling rumble when it's close, a long low rumble when it's far. Twelve different thunders, so no two sound the same.
+- **Real glass in the gym** (new in 3.3): the gym's three low windows had a self-lit pane that glowed the same by day and by night. They now get the same glass as the other windows, so they darken at night and show the rain and the drops. Always on.
 - **Remembered**: every setting is saved and applied by itself about a second after Jodi's Office loads.
 - **Light**: a plain pak. No UE4SS, no game files replaced, nothing running outside Jodi's Office. Works on Linux (Steam / Proton) too.
 
@@ -54,7 +55,7 @@ No UE4SS needed.
 
 Copy `JodisSky.pak` into the game's `TheKillingAntidote\Mods\` folder (the game must be closed).
 
-**Updating from Jodi's Sky 3.0?** Just replace `JodisSky.pak`; your settings are kept, and the new rain settings start at their defaults (Rain off).
+**Updating from Jodi's Sky 3.0 or 3.2?** Just replace `JodisSky.pak`; your settings are kept (coming from 3.0, the rain settings start at their defaults, Rain off).
 
 **Updating from OfficeNight?** Jodi's Sky is OfficeNight renamed. Delete `OfficeNight.pak` from `Mods\` (and turn off the old UE4SS *OfficeNight* script if you had it), or they will fight over the same lights. Settings start fresh under the new name.
 
