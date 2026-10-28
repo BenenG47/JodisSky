@@ -1,0 +1,7 @@
+# Nexus-only files, not part of the GitHub repo
+NEXUS_DESCRIPTION.txt
+images/banner.png
+images/AltUI Menu.png
+images/Morning.png
+# release zip (uploaded to Nexus / GitHub Releases, not committed)
+*.zip
