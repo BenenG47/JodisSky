@@ -1,8 +1,8 @@
 # Jodi's Sky
 
-**Day and night for Jodi's Office in *The Killing Antidote*, with a moon, a night sky and lamps you control from AltUI.**
+**Day, night, rain and storms for Jodi's Office in *The Killing Antidote*, with a moon, a night sky and lamps you control from AltUI.**
 
-A dark city under the moon, the haze thickening between the towers, the room lit only by her lamps or her screens. One toggle switches it, a page of sliders tunes it, and it comes back by itself every time you load the office.
+A dark city under the moon, the haze thickening between the towers, the room lit only by her lamps or her screens. Or a grey afternoon, rain streaming down the windows, lightning over the towers and thunder rolling in a few seconds later. One toggle switches it, a page of sliders tunes it, and it comes back by itself every time you load the office.
 
 ![Jodi at the window under a black night sky](images/01.png)
 
@@ -26,6 +26,12 @@ A dark city under the moon, the haze thickening between the towers, the room lit
 
   ![Thicker haze over the city](images/fog.png)
 
+- **Rain** (new in 3.2), by day and by night, also in the quick wheel (*Jodi's Sky › Rain*):
+  - rain falling outside every window, in three layers (near, mid, far) so it has depth;
+  - a grey, overcast sky: darker and foggier the heavier the rain;
+  - a soft rain sound, muffled as if heard through the glass.
+- **Water on the windows**: beads form, swell and dry on every pane; now and then one runs down and leaves a trail; in heavy rain a wavy water film streams down the glass, and the city behind it bends and blurs.
+- **Storms**: lightning by day and by night, a bolt in the sky where you can see it from the office and the bedroom, a flash on the room and on Jodi, and thunder that arrives a few seconds later: a crack and a rolling rumble when it's close, a long low rumble when it's far. Twelve different thunders, so no two sound the same.
 - **Remembered**: every setting is saved and applied by itself about a second after Jodi's Office loads.
 - **Light**: a plain pak. No UE4SS, no game files replaced, nothing running outside Jodi's Office. Works on Linux (Steam / Proton) too.
 
@@ -44,6 +50,8 @@ No UE4SS needed.
 ## Installation
 
 Copy `JodisSky.pak` into the game's `TheKillingAntidote\Mods\` folder (the game must be closed).
+
+**Updating from Jodi's Sky 3.0?** Just replace `JodisSky.pak`; your settings are kept, and the new rain settings start at their defaults (Rain off).
 
 **Updating from OfficeNight?** Jodi's Sky is OfficeNight renamed. Delete `OfficeNight.pak` from `Mods\` (and turn off the old UE4SS *OfficeNight* script if you had it), or they will fight over the same lights. Settings start fresh under the new name.
 
@@ -68,9 +76,16 @@ AltUI › **Mods** › **Jodi's Sky**. Every change applies at once (sliders whi
 | **Sky tint** | −100 blue … +100 dusk (0) | colour of the sky and the haze; the moonlight takes a little of it |
 | **Fog (%)** | 100–500 (100) | **day and night**: how thick the haze is (only thicker than the game's, so the city never shows its edges) |
 | **Fog start (m)** | 10–200 (10) | **day and night**: how far from the camera the haze begins. Around 30 m the nearby buildings clear while the far city stays hazy |
-| **Back to the defaults** | | resets everything except Night |
+| **Rain** | on / off (off) | rain, overcast sky and rain sound, day and night (also in the quick wheel) |
+| **Rain strength (%)** | 0–100 (60) | how much rain falls, and how grey, dark and foggy the sky gets |
+| **Rain sound (%)** | 0–100 (70) | the rain's volume; 0 = silent |
+| **Window drops** | on / off (on) | beads and trickles on the windows (with Rain on) |
+| **Water film** | on / off (on) | the water film streaming down the glass, from Rain strength 75 % |
+| **Lightning** | on / off (on) | lightning, the flash and thunder (with Rain on); more often in heavier rain |
+| **Thunder (%)** | 0–200 (70) | thunder volume; 0 = silent flashes. Above 100 % it gets louder than the sound itself, near 200 % the closest cracks may sound a little rough |
+| **Back to the defaults** | | resets every slider; no on / off switch changes |
 
-Everything acts at night only, except the two fog settings. At their defaults, Day is the game's own office (the haze just starts 10 m away, so the room is never foggy).
+The moon, lamp and sky settings act at night only; fog and rain work day and night. At their defaults, with Rain off, Day is the game's own office (the haze just starts 10 m away, so the room is never foggy).
 
 ---
 
@@ -80,6 +95,8 @@ Everything acts at night only, except the two fog settings. At their defaults, D
 - The moon is the office's own sun, turned down and tinted. It sits where the game puts the sun.
 - The glow around a bright moon partly comes from the game's bloom effect.
 - Another mod that changes the office's lights at the same time will fight with it; use one at a time.
+- Rain, drops and lightning cost next to nothing: nothing runs between strikes, and with Rain off nothing extra is drawn at all.
+- The rain and thunder sounds are made by the mod's own scripts (no recordings), so they are free to share.
 
 ---
 
