@@ -31,6 +31,9 @@ A dark city under the moon, the haze thickening between the towers, the room lit
   - a grey, overcast sky: darker and foggier the heavier the rain;
   - a soft rain sound, muffled as if heard through the glass.
 - **Water on the windows**: beads form, swell and dry on every pane; now and then one runs down and leaves a trail; in heavy rain a wavy water film streams down the glass, and the city behind it bends and blurs.
+
+  ![Heavy rain at night: rain over the city, drops on the window, the moon through the haze](images/HeavyRain.png)
+
 - **Storms**: lightning by day and by night, a bolt in the sky where you can see it from the office and the bedroom, a flash on the room and on Jodi, and thunder that arrives a few seconds later: a crack and a rolling rumble when it's close, a long low rumble when it's far. Twelve different thunders, so no two sound the same.
 - **Remembered**: every setting is saved and applied by itself about a second after Jodi's Office loads.
 - **Light**: a plain pak. No UE4SS, no game files replaced, nothing running outside Jodi's Office. Works on Linux (Steam / Proton) too.
