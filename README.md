@@ -36,6 +36,7 @@ A dark city under the moon, the haze thickening between the towers, the room lit
 
 - **Storms**: lightning by day and by night, a bolt in the sky where you can see it from the office and the bedroom, a flash on the room and on Jodi, and thunder that arrives a few seconds later: a crack and a rolling rumble when it's close, a long low rumble when it's far. Twelve different thunders, so no two sound the same.
 - **Real glass in the gym** (new in 3.3): the gym's three low windows had a self-lit pane that glowed the same by day and by night. They now get the same glass as the other windows, so they darken at night and show the rain and the drops. Always on.
+- **Follow the clock** (new in 3.4): day and night switch by themselves with your PC's time, the time Jodi's clock shows, at the hours you choose. The Night toggle still works as a manual override until the next switch hour.
 - **Remembered**: every setting is saved and applied by itself about a second after Jodi's Office loads.
 - **Light**: a plain pak. No UE4SS, no game files replaced, nothing running outside Jodi's Office. Works on Linux (Steam / Proton) too.
 
@@ -55,7 +56,7 @@ No UE4SS needed.
 
 Copy `JodisSky.pak` into the game's `TheKillingAntidote\Mods\` folder (the game must be closed).
 
-**Updating from Jodi's Sky 3.0 or 3.2?** Just replace `JodisSky.pak`; your settings are kept (coming from 3.0, the rain settings start at their defaults, Rain off).
+**Updating from Jodi's Sky 3.0, 3.2 or 3.3?** Just replace `JodisSky.pak`; your settings are kept. Follow the clock starts off, so nothing changes until you turn it on (coming from 3.0, the rain settings start at their defaults, Rain off).
 
 **Updating from OfficeNight?** Jodi's Sky is OfficeNight renamed. Delete `OfficeNight.pak` from `Mods\` (and turn off the old UE4SS *OfficeNight* script if you had it), or they will fight over the same lights. Settings start fresh under the new name.
 
@@ -72,12 +73,12 @@ AltUI › **Mods** › **Jodi's Sky**. Every change applies at once (sliders whi
 | **Now** | | Day or Night, or "Not in Jodi's Office" |
 | **Night** | on / off | switches day and night (also in the quick wheel) |
 | **Room lamps (%)** | 0–100 (100) | the office's lamps at night. 20 = a dim room, 0 = only the moon and the screens |
-| **Moonlight** | 0–1.6 (0.8) | how strongly the moon lights the room and Jodi through the windows |
-| **Moon disc (%)** | 0–100 (100) | how bright the moon looks in the sky; 0 = no moon. The sky keeps its brightness |
-| **Moon size** | Real / Large / Huge / Giant | the size of the disc. Bigger looks dimmer: raise Moon disc a little |
-| **Moon glow (%)** | 0–100 (100) | the halo around the moon; 0 = a crisp disc |
 | **Night sky (%)** | 0–300 (100) | brightness of the night sky, the sky light and the city haze |
 | **Sky tint** | −100 blue … +100 dusk (0) | colour of the sky and the haze; the moonlight takes a little of it |
+| **Moonlight** | 0–1.6 (0.8) | how strongly the moon lights the room and Jodi through the windows |
+| **Moon size** | Real / Large / Huge / Giant | the size of the disc. Bigger looks dimmer: raise Moon disc a little |
+| **Moon disc (%)** | 0–100 (100) | how bright the moon looks in the sky; 0 = no moon. The sky keeps its brightness |
+| **Moon glow (%)** | 0–100 (100) | the halo around the moon; 0 = a crisp disc |
 | **Fog (%)** | 100–500 (100) | **day and night**: how thick the haze is (only thicker than the game's, so the city never shows its edges) |
 | **Fog start (m)** | 10–200 (10) | **day and night**: how far from the camera the haze begins. Around 30 m the nearby buildings clear while the far city stays hazy |
 | **Rain** | on / off (off) | rain, overcast sky and rain sound, day and night (also in the quick wheel) |
@@ -87,9 +88,14 @@ AltUI › **Mods** › **Jodi's Sky**. Every change applies at once (sliders whi
 | **Water film** | on / off (on) | the water film streaming down the glass, from Rain strength 75 % |
 | **Lightning** | on / off (on) | lightning, the flash and thunder (with Rain on); more often in heavier rain |
 | **Thunder (%)** | 0–200 (70) | thunder volume; 0 = silent flashes. Above 100 % it gets louder than the sound itself, near 200 % the closest cracks may sound a little rough |
-| **Back to the defaults** | | resets every slider; no on / off switch changes |
+| **Follow the clock** | on / off (off) | day and night switch by themselves with your PC's time (the time on Jodi's clock). See below |
+| **Night from** | 0–23 (20) | the hour night begins |
+| **Day from** | 0–23 (7) | the hour day begins |
+| **Back to the defaults** | | resets every slider (the two hours too); no on / off switch changes |
 
 The moon, lamp and sky settings act at night only; fog and rain work day and night. At their defaults, with Rain off, Day is the game's own office (the haze just starts 10 m away, so the room is never foggy).
+
+**Follow the clock**: when you turn it on, and every time Jodi's Office loads, it's night between *Night from* and *Day from* (for example 20 → 7: night from 8 pm to 7 am) and day the rest of the time. While you play it checks the time once a minute and switches when one of the two hours comes. You can still flip Night by hand (or with the quick wheel); your choice holds until the next switch hour. With both hours the same it never switches.
 
 ---
 
