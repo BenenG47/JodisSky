@@ -1,6 +1,6 @@
-# Jodi's Sky
+# Jodi's Sky: The World Outside
 
-**Day, night, rain, storms and a city that is still out there, for Jodi's Office in *The Killing Antidote*, all set from AltUI.**
+**Day, night, rain, storms and a city that is still out there. Sometimes closer than you'd like. For Jodi's Office in *The Killing Antidote*, all set from AltUI.**
 
 A dark city under the moon, the haze thickening between the towers, the room lit only by her lamps or her screens. Or a grey afternoon, rain streaming down the windows, lightning over the towers and thunder rolling in a few seconds later. And down in the streets, muffled by the glass: a groan, a scream cut short, a burst of gunfire, glass breaking, crows taking off. One toggle switches it, a page of settings tunes it, and it comes back by itself every time you load the office.
 
@@ -58,6 +58,8 @@ The city below the office is no longer silent. Every sound is far below, muffled
 - **Jodi reacts**: when something happens close to her (a scream right below, a burst, a crash, a close thunder crack) she gasps, a hard gasp when it's very close, and catches her breath; after an announcement she sighs. At most once every few minutes, so it stays a surprise. On by default since 3.7.
 - **Each group has its own switch**, and Street sounds as a whole is in the quick wheel (*Jodi's Sky › Street sounds*).
 - **Occasional surprises** (new in 3.7): rare things happen in the flat now and then. Untick to keep it quiet. (What it does is in the spoiler section at the very end.)
+- **Uninvited** (new in 3.8).
+- **Jodi's voice follows her** (3.8): her gasp and the breath after it now stay with her when she moves.
 
 ### Everything else
 
@@ -132,6 +134,7 @@ AltUI › **Mods** › **Jodi's Sky**. Every change applies at once (sliders whi
 | **City** | on / off (on) | glass, crashes, metal; crows by day |
 | **Jodi reacts** | on / off (on) | her gasps and breath when something happens close to her, a sigh after an announcement; also with close thunder when Street sounds is off |
 | **Occasional surprises** | on / off (on) | rare things happen in the flat now and then. Untick to keep it quiet |
+| **Uninvited** | on / off | |
 | **Reset the sliders** | | every slider back to its default; no on / off switch changes |
 | **Back to the defaults** | | every slider and every switch back to a fresh install |
 
@@ -169,7 +172,7 @@ The moon, lamp and sky settings act at night only; fog, rain and the street work
 
 ## Surprises (spoilers)
 
-**⚠ Spoilers.** Read on only if you want to know what *Occasional surprises* does. It's more fun not to.
+**⚠ Spoilers.** Read on only if you want to know what *Occasional surprises* and *Uninvited* do. It's more fun not to.
 
 <details>
 <summary>Show the spoilers</summary>
@@ -177,5 +180,7 @@ The moon, lamp and sky settings act at night only; fog, rain and the street work
 Very rarely, about once every 15–30 minutes in Jodi's Office, a door that has been left open for a while closes by itself behind Jodi's back. It's the game's own door, with its own swing and sound, and never while she's looking at it or standing next to it. Sometimes it slams too hard and bounces back open. Jodi may catch her breath softly.
 
 Untick **Occasional surprises** to stop it.
+
+**Uninvited** (3.8): about once for every hour Jodi spends in her office (the time adds up across visits), a window breaks somewhere in the flat, muffled through the walls like one more sound from the street, and glass falls under it. Something got in: a **Weeper** crying in the bathroom until she hears Jodi, a **Bloodworm** in the bathroom, or a **Crawler** in the gym. They're the game's own zombies and fight like anywhere else. It never happens in the first two minutes after the office loads, never where Jodi can see, and only one at a time. Untick **Uninvited** and it's gone at once. AltUI followers set to "Attackable" are fair game too.
 
 </details>
