@@ -40,7 +40,7 @@ A dark city under the moon, the haze thickening between the towers, the room lit
 
   ![Heavy rain at night: rain over the city, drops on the window, the moon through the haze](images/HeavyRain.png)
 
-- **Storms**: lightning by day and by night, a bolt in the sky where you can see it from the office and the bedroom, a flash on the room and on Jodi, and thunder that arrives a few seconds later: a crack and a rolling rumble when it's close, a long low rumble when it's far. **New in 3.5**: the thunder comes from the side the lightning struck, and every strike has its own pitch, so no two sound the same.
+- **Storms**: lightning by day and by night, a bolt in the sky where you can see it from the office and the bedroom, a flash on the room and on Jodi, and thunder that arrives a few seconds later: a crack and a rolling rumble when it's close, a long low rumble when it's far. The thunder comes from the side the lightning struck, and every strike has its own pitch, so no two sound the same. **New in 3.7**: the thunder is made from real recorded storms, with a sharper crack up close and a deeper rumble far away.
 - **Real glass in the gym**: the gym's three low windows get the same glass as the other windows, so they darken at night and show the rain and the drops.
 
 ### The streets (new in 3.5)
@@ -52,11 +52,12 @@ The city below the office is no longer silent. Every sound is far below, muffled
 - **Screams**: people crying for help, screams cut short, a man's last cry.
 - **Gunfire**: single shots, bursts from pistols, SMGs and shotguns, and in chaos the odd explosion.
 - **Loudspeaker**: the city's emergency broadcast, echoing between the towers. Rare.
-- **City**: glass shattering, wood and furniture breaking, a wall or a door giving way, metal rattling in the distance. By day, **crows**, and a flock taking off after an explosion.
+- **City**: glass shattering, wood and furniture breaking, a wall or a door giving way, metal rattling in the distance. By day, **crows**, and a flock taking off after an explosion. **New in 3.7**: doors opening and closing somewhere in the building, through the walls.
 - **Little scenes**: sounds answer each other. A scream followed by gunfire, breaking glass followed by a scream, glass raining down after an explosion, crows startled by a burst…
 - **Day and night feel different**: more zombies at night, more gunfire and people by day; rain makes the street rarer and a little quieter.
-- **Jodi reacts**: when something happens close to her (a scream right below, a burst, a crash, a close thunder crack) she gasps, a hard gasp when it's very close, and catches her breath; after an announcement she sighs. At most once every few minutes, so it stays a surprise. Off by default.
+- **Jodi reacts**: when something happens close to her (a scream right below, a burst, a crash, a close thunder crack) she gasps, a hard gasp when it's very close, and catches her breath; after an announcement she sighs. At most once every few minutes, so it stays a surprise. On by default since 3.7.
 - **Each group has its own switch**, and Street sounds as a whole is in the quick wheel (*Jodi's Sky › Street sounds*).
+- **Occasional surprises** (new in 3.7): rare things happen in the flat now and then. Untick to keep it quiet. (What it does is in the spoiler section at the very end.)
 
 ### Everything else
 
@@ -82,7 +83,7 @@ No UE4SS needed.
 
 Copy `JodisSky.pak` into the game's `TheKillingAntidote\Mods\` folder (the game must be closed).
 
-**Updating from Jodi's Sky 3.x?** Just replace `JodisSky.pak`; your settings are kept. Street sounds and Jodi reacts start off, so nothing changes until you turn them on (coming from 3.0, the rain settings start at their defaults, Rain off).
+**Updating from Jodi's Sky 3.x?** Just replace `JodisSky.pak`; your settings are kept. Occasional surprises (new in 3.7) starts on; untick it if you want the flat quiet. Coming from 3.0–3.4, Street sounds starts off and Jodi reacts starts on; coming from 3.0, the rain settings start at their defaults, Rain off.
 
 **Updating from OfficeNight?** Jodi's Sky is OfficeNight renamed. Delete `OfficeNight.pak` from `Mods\` (and turn off the old UE4SS *OfficeNight* script if you had it), or they will fight over the same lights. Settings start fresh under the new name.
 
@@ -129,7 +130,8 @@ AltUI › **Mods** › **Jodi's Sky**. Every change applies at once (sliders whi
 | **Gunfire** | on / off (on) | shots, bursts and explosions |
 | **Loudspeaker** | on / off (on) | the city's emergency broadcast (rare) |
 | **City** | on / off (on) | glass, crashes, metal; crows by day |
-| **Jodi reacts** | on / off (off) | her gasps and breath when something happens close to her, a sigh after an announcement; also with close thunder when Street sounds is off |
+| **Jodi reacts** | on / off (on) | her gasps and breath when something happens close to her, a sigh after an announcement; also with close thunder when Street sounds is off |
+| **Occasional surprises** | on / off (on) | rare things happen in the flat now and then. Untick to keep it quiet |
 | **Reset the sliders** | | every slider back to its default; no on / off switch changes |
 | **Back to the defaults** | | every slider and every switch back to a fresh install |
 
@@ -150,7 +152,7 @@ The moon, lamp and sky settings act at night only; fog, rain and the street work
 - The glow around a bright moon partly comes from the game's bloom effect.
 - Another mod that changes the office's lights at the same time will fight with it; use one at a time.
 - Rain, drops, lightning and the street cost next to nothing: nothing runs between two sounds, and with Rain and Street sounds off nothing extra happens at all.
-- The rain and thunder sounds are made by the mod's own scripts (no recordings). The street plays **the game's own sounds**, straight from your game, so a mod that replaces one of them (a louder gun, a different zombie) is heard in the street too.
+- The rain sound is made by the mod's own scripts; the thunder is built from free recordings from Pixabay. The street plays **the game's own sounds**, straight from your game, so a mod that replaces one of them (a louder gun, a different zombie) is heard in the street too.
 
 ---
 
@@ -159,5 +161,21 @@ The moon, lamp and sky settings act at night only; fog, rain and the street work
 - **BenenG47**: the mod.
 - **Zyiakk**: [AltUI](https://github.com/Zyiakk/AltUI), whose Mods tab and quick wheel give Jodi's Sky its page, and the name.
 - **The Blueprint Loader's author**: [Blueprint Loader](https://www.nexusmods.com/thekillingantidote/mods/994).
+- **[Pixabay](https://pixabay.com)**: the thunder recordings.
 
 ![A red moon over the city](images/redmoon.png)
+
+---
+
+## Surprises (spoilers)
+
+**⚠ Spoilers.** Read on only if you want to know what *Occasional surprises* does. It's more fun not to.
+
+<details>
+<summary>Show the spoilers</summary>
+
+Very rarely, about once every 15–30 minutes in Jodi's Office, a door that has been left open for a while closes by itself behind Jodi's back. It's the game's own door, with its own swing and sound, and never while she's looking at it or standing next to it. Sometimes it slams too hard and bounces back open. Jodi may catch her breath softly.
+
+Untick **Occasional surprises** to stop it.
+
+</details>
