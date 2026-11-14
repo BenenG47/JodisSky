@@ -1,83 +1,35 @@
-# Jodi's Sky: The World Outside
+# Jodi's Sky - Weather Overhaul 4.0
 
-**Day, night, rain, storms and a city that is still out there. Sometimes closer than you'd like. For Jodi's Office in *The Killing Antidote*, all set from AltUI.**
+**Day, night, weather and a city that is still out there, for Jodi's Office and the Abandoned Hangar in *The Killing Antidote*. Rain that falls, blows and soaks her. All set from AltUI.**
 
-A dark city under the moon, the haze thickening between the towers, the room lit only by her lamps or her screens. Or a grey afternoon, rain streaming down the windows, lightning over the towers and thunder rolling in a few seconds later. And down in the streets, muffled by the glass: a groan, a scream cut short, a burst of gunfire, glass breaking, crows taking off. One toggle switches it, a page of settings tunes it, and it comes back by itself every time you load the office.
+A grey storm rolling over the towers, rain slanting past the windows in the gusts, thunder a few seconds after the flash. Jodi caught outside in it: rain beading on her skin, dripping from her chin and fingertips, her hair darkening as it soaks. Back inside, she's still shivering, and the sneezes come. Or a quiet night under a red moon, the room lit only by her lamps, the street muffled far below.
 
-![Jodi at the window under a black night sky](images/01.png)
+![Jodi soaked in the rain behind a fence, a red moon over the hangar](images/v4_thumbnail.png)
 
 ---
 
-## Features
+## What's new in 4.0
 
-### Day and night
+- **A second map: the Abandoned Hangar.** The whole sky (day, night, moon, fog, storms) now works there too, with a real 3D rain you can walk through: drops at every distance, splashes, ripples and puddles on the ground, drops on the screen when the camera is out in it.
+- **The same rain in Jodi's Office.** The windows now show the same 3D rain as the hangar, leaning with the wind from every window, with drumming on the roof above her.
+- **Weather that changes by itself.** Random weather moves between clear, light, medium and heavy rain, mist and thick fog, calm and gales. One weather for the whole game: it follows Jodi from one map to the other.
+- **Sky moods.** Now and then a night under a **Blood moon** or a **Freezing blue** sky, or a **Cold grey day**.
+- **Water on Jodi.** Out in the rain her skin gets wet and glossy: rings where drops hit, beads that form and run, streams down her body, water on her clothes and hair, drops that hang and fall from her chin, nose, fingers, knees and hair tips. Her hair darkens as it soaks. She stays wet when she goes inside, and dries slowly.
+- **She can catch a cold.** Soaked for too long (worse at night, in the wind, in heavy rain), she starts to cough, then to sneeze. She tries to hold a sneeze in when she's aiming or when someone is close by, and zombies can hear her.
+- **A new "Jodi" tab:** her reactions, sneezing, and the **flashlight while aiming** (with the Glock or the Revolver, the flashlight key now switches the light while she aims).
+- **Clearer settings:** the page is split into tabs and folding sections, with clearer names.
 
-- **Night in one click**: AltUI's Mods tab, or the quick wheel (*Jodi's Sky › Night*). Day puts the office back exactly as the game made it.
-- **A real night, not a filter**: the office's own lights are changed live. The sun becomes a moon, the sky and the city haze go dark blue, and the room really gets dark.
-- **The moon**: its light on the room and on Jodi, the disc in the sky, its size (Real / Large / Huge / Giant) and its glow, each on its own slider.
-- **Your lamps**: from full light to 0 %, where only the moon and the screens light the room. Made for movie nights with [DesktopTV](https://github.com/BenenG47/DesktopTV-v1).
-
-  ![Jodi's Sky at night with DesktopTV](images/JodisSky.gif)
-
-- **Wardrobe-friendly**: night doesn't mean dressing in the dark. Keep the lamps bright enough and the wardrobe stays comfortable to use, while the city outside stays at night.
-
-  ![The wardrobe at night with the lamps up](images/wardrobe.png)
-
-- **Sky colour**: from a cold blue night to a red dusk.
-- **Fog, day and night**: thicker haze over the city, and how far from the window it starts. Jodi's room itself never gets foggy.
-
-  ![Thicker haze over the city](images/fog.png)
-
-- **Follow the clock**: day and night switch by themselves with your PC's time, the time Jodi's clock shows, at the hours you choose. The Night toggle still works as a manual override until the next switch hour.
-
-### Rain and storms
-
-- **Rain**, by day and by night, also in the quick wheel (*Jodi's Sky › Rain*):
-  - rain falling outside every window, in three layers (near, mid, far) so it has depth;
-  - a grey, overcast sky: darker and foggier the heavier the rain;
-  - a soft rain sound, muffled as if heard through the glass.
-- **Water on the windows**: beads form, swell and dry on every pane; now and then one runs down and leaves a trail; in heavy rain a wavy water film streams down the glass, and the city behind it bends and blurs.
-
-  ![Heavy rain at night: rain over the city, drops on the window, the moon through the haze](images/HeavyRain.png)
-
-- **Storms**: lightning by day and by night, a bolt in the sky where you can see it from the office and the bedroom, a flash on the room and on Jodi, and thunder that arrives a few seconds later: a crack and a rolling rumble when it's close, a long low rumble when it's far. The thunder comes from the side the lightning struck, and every strike has its own pitch, so no two sound the same. **New in 3.7**: the thunder is made from real recorded storms, with a sharper crack up close and a deeper rumble far away.
-- **Real glass in the gym**: the gym's three low windows get the same glass as the other windows, so they darken at night and show the rain and the drops.
-
-### The streets (new in 3.5)
-
-The city below the office is no longer silent. Every sound is far below, muffled by the glass, coming from the side of the street it happens in.
-
-- **Calm ↔ Chaos**: one slider from long, uneasy silences broken by a distant moan, to a city still fighting all around you.
-- **Zombies**: groans, snarls and choruses, a chase howl, the weeping and shrieking **Weeper**, the roar of a **Devourer** answered by the others. At night the **Nurse's laughter** and a **Predator's** shriek join in. Now and then, someone **runs past** in the street, something howling behind them.
-- **Screams**: people crying for help, screams cut short, a man's last cry.
-- **Gunfire**: single shots, bursts from pistols, SMGs and shotguns, and in chaos the odd explosion.
-- **Loudspeaker**: the city's emergency broadcast, echoing between the towers. Rare.
-- **City**: glass shattering, wood and furniture breaking, a wall or a door giving way, metal rattling in the distance. By day, **crows**, and a flock taking off after an explosion. **New in 3.7**: doors opening and closing somewhere in the building, through the walls.
-- **Little scenes**: sounds answer each other. A scream followed by gunfire, breaking glass followed by a scream, glass raining down after an explosion, crows startled by a burst…
-- **Day and night feel different**: more zombies at night, more gunfire and people by day; rain makes the street rarer and a little quieter.
-- **Jodi reacts**: when something happens close to her (a scream right below, a burst, a crash, a close thunder crack) she gasps, a hard gasp when it's very close, and catches her breath; after an announcement she sighs. At most once every few minutes, so it stays a surprise. On by default since 3.7.
-- **Each group has its own switch**, and Street sounds as a whole is in the quick wheel (*Jodi's Sky › Street sounds*).
-- **Occasional surprises** (new in 3.7): rare things happen in the flat now and then. Untick to keep it quiet. (What it does is in the spoiler section at the very end.)
-- **Uninvited** (new in 3.8).
-- **Jodi's voice follows her** (3.8): her gasp and the breath after it now stay with her when she moves.
-
-### Everything else
-
-- **Remembered**: every setting is saved and applied by itself about a second after Jodi's Office loads.
-- **Your own moods**: with AltUI 2.9, save any combination of settings as a preset tile with "+" at the top of the page (a stormy night, a quiet movie night…) and switch between them in one click.
-- **Light**: a plain pak. No UE4SS, no game files replaced, nothing running outside Jodi's Office. Works on Linux (Steam / Proton) too.
+![Jodi in the storm under a red moon, rain slanting past her](images/v4_banner.png)
 
 ---
 
 ## Requirements
 
 1. **[Blueprint Loader](https://www.nexusmods.com/thekillingantidote/mods/994)**: starts the mod in the game.
-2. **[AltUI](https://www.nexusmods.com/thekillingantidote/mods/988)**: the settings page and the quick-wheel toggles (2.9 or newer for the preset tiles).
+2. **[AltUI](https://www.nexusmods.com/thekillingantidote/mods/988) 2.11 or newer**: the settings page (tabs and sections) and the quick-wheel toggles.
    Without AltUI the mod still applies your last saved settings; you just can't change them.
 
-No UE4SS needed.
-
-**Optional**: the *VoiceTranslation* mod turns the loudspeaker's Chinese announcements into English.
+No UE4SS needed. **Optional:** the *VoiceTranslation* mod turns the loudspeaker's Chinese announcements into English.
 
 ---
 
@@ -85,88 +37,69 @@ No UE4SS needed.
 
 Copy `JodisSky.pak` into the game's `TheKillingAntidote\Mods\` folder (the game must be closed).
 
-**Updating from Jodi's Sky 3.x?** Just replace `JodisSky.pak`; your settings are kept. Occasional surprises (new in 3.7) starts on; untick it if you want the flat quiet. Coming from 3.0–3.4, Street sounds starts off and Jodi reacts starts on; coming from 3.0, the rain settings start at their defaults, Rain off.
+**Updating from 3.x?** Replace `JodisSky.pak`; your settings are kept. Everything new starts at its default; "Reset this tab (sliders and switches)" sets that tab to the 4.0 defaults.
 
-**Updating from OfficeNight?** Jodi's Sky is OfficeNight renamed. Delete `OfficeNight.pak` from `Mods\` (and turn off the old UE4SS *OfficeNight* script if you had it), or they will fight over the same lights. Settings start fresh under the new name.
-
-**Uninstall**: delete `JodisSky.pak`. Its settings live in `%LOCALAPPDATA%\TheKillingAntidote\Saved\SaveGames\JodisSky.sav` and can be deleted too.
+**Uninstall:** delete `JodisSky.pak`. Its settings live in `%LOCALAPPDATA%\TheKillingAntidote\Saved\SaveGames\JodisSky.sav` and can be deleted too.
 
 ---
 
-## Settings
+## The settings page
 
-AltUI › **Mods** › **Jodi's Sky**. Every change applies at once (sliders while you drag). The page is split in four sections.
+Open AltUI's **Mods** tab, then **Jodi's Sky**. Every tab ends with three buttons: **Reset this tab's sliders**, **Reset this tab (sliders and switches)**, and on the first tab **Reset ALL tabs**. With AltUI's "+" at the top of the page you can save any combination as your own preset tile. The mod also comes with three: *Crimson Deluge*, *Pale Moon Plague* and *Silent Chill*.
 
-| Setting | Range (default) | What it does |
-|---|---|---|
-| **Now** | | Day or Night, or "Not in Jodi's Office" |
-| ***Clock*** | | |
-| **Follow the clock** | on / off (off) | day and night switch by themselves with your PC's time (the time on Jodi's clock). See below |
-| **Night from** | 0–23 (20) | the hour night begins |
-| **Day from** | 0–23 (7) | the hour day begins |
-| ***Night & sky*** | | |
-| **Night** | on / off | switches day and night (also in the quick wheel) |
-| **Room lamps (%)** | 0–100 (100) | the office's lamps at night. 20 = a dim room, 0 = only the moon and the screens |
-| **Night sky (%)** | 0–300 (100) | brightness of the night sky, the sky light and the city haze |
-| **Sky tint** | −100 blue … +100 dusk (0) | colour of the sky and the haze; the moonlight takes a little of it |
-| **Moonlight** | 0–1.6 (0.8) | how strongly the moon lights the room and Jodi through the windows |
-| **Moon size** | Real / Large / Huge / Giant | the size of the disc. Bigger looks dimmer: raise Moon disc a little |
-| **Moon disc (%)** | 0–100 (100) | how bright the moon looks in the sky; 0 = no moon. The sky keeps its brightness |
-| **Moon glow (%)** | 0–100 (100) | the halo around the moon; 0 = a crisp disc |
-| **Fog (%)** | 100–500 (100) | **day and night**: how thick the haze is (only thicker than the game's, so the city never shows its edges) |
-| **Fog start (m)** | 10–200 (10) | **day and night**: how far from the camera the haze begins. Around 30 m the nearby buildings clear while the far city stays hazy |
-| ***Rain & storm*** | | |
-| **Rain** | on / off (off) | rain, overcast sky and rain sound, day and night (also in the quick wheel) |
-| **Rain strength (%)** | 0–100 (60) | how much rain falls, and how grey, dark and foggy the sky gets |
-| **Rain sound (%)** | 0–100 (70) | the rain's volume; 0 = silent |
-| **Window drops** | on / off (on) | beads and trickles on the windows (with Rain on) |
-| **Water film** | on / off (on) | the water film streaming down the glass, from Rain strength 75 % |
-| **Lightning** | on / off (on) | lightning, the flash and thunder (with Rain on); more often in heavier rain |
-| **Thunder (%)** | 0–200 (70) | thunder volume; 0 = silent flashes. Above 100 % it gets louder than the sound itself, near 200 % the closest cracks may sound a little rough |
-| ***Street*** | | |
-| **Street sounds** | on / off (off) | the sounds of the city below (also in the quick wheel) |
-| **Calm ↔ Chaos** | 0–100 (30) | how often things happen, and how big: rare and distant at 0, a city at war at 100 |
-| **Street volume (%)** | 0–300 (100) | all the street sounds, under the game's sound-effects volume |
-| **Zombies** | on / off (on) | groans, choruses, chase howls, the Weeper, the Devourer, someone running past; at night the Nurse and the Predator |
-| **Screams** | on / off (on) | people screaming and crying for help |
-| **Gunfire** | on / off (on) | shots, bursts and explosions |
-| **Loudspeaker** | on / off (on) | the city's emergency broadcast (rare) |
-| **City** | on / off (on) | glass, crashes, metal; crows by day |
-| **Jodi reacts** | on / off (on) | her gasps and breath when something happens close to her, a sigh after an announcement; also with close thunder when Street sounds is off |
-| **Occasional surprises** | on / off (on) | rare things happen in the flat now and then. Untick to keep it quiet |
-| **Uninvited** | on / off | |
-| **Reset the sliders** | | every slider back to its default; no on / off switch changes |
-| **Back to the defaults** | | every slider and every switch back to a fresh install |
+### Sky & weather
 
-Neither button touches the clock (Follow the clock, Night from, Day from): that's yours.
+- **Clock:** *Follow the clock* switches day and night with your PC's time, at the hours you choose.
+- **Weather:** *Random weather* on, and the weather takes care of itself. *Heaviest random rain* and *Thickest random fog* cap it; *How long the weather lasts* slows or speeds the changes; *Sky moods* and their chance; *Wind strength* tones the wind down or up everywhere.
+- **Night & sky:** *Night*, *Night brightness*, *Sky colour* (cold blue ↔ red dusk), *Moonlight*, the moon's size, brightness and halo.
+- **Fog** and **Rain & storm:** *Rain*, *Rain strength* (without random weather), *Rain sound*, *Lightning*, *Thunder volume*. *Storm grows with the rain*: thunder only once the rain is heavy enough, and close only in the heaviest rain.
 
-The moon, lamp and sky settings act at night only; fog, rain and the street work day and night. At their defaults, with Rain and Street sounds off, Day is the game's own office (the haze just starts 10 m away, so the room is never foggy).
+### Jodi's Office
 
-**Follow the clock**: when you turn it on, and every time Jodi's Office loads, it's night between *Night from* and *Day from* (for example 20 → 7: night from 8 pm to 7 am) and day the rest of the time. While you play it checks the time once a minute and switches when one of the two hours comes. You can still flip Night by hand (or with the quick wheel, or a preset tile); your choice holds until the next switch hour. With both hours the same it never switches.
+- **Room & windows:** your lamps (down to 0 %, the moon and the screens only), where the city haze starts, *Raindrop visibility, office* (the office's own: the drops through the windows are seen from far, so they need more), the drops and the water film on the panes.
+- **Street:** the city below, muffled by the glass, from the side of the street it happens in. *Calm ↔ Chaos* from long uneasy silences to a city still fighting all around you. *City* (glass, crashes, doors in the building; crows by day), *Zombies* (the Weeper, a Devourer's roar, the Nurse's laughter at night, someone running past…), *Screams*, *Gunfire*, the *Loudspeaker*. Sounds answer each other, and day and night feel different. On by default.
+- **Surprises:** *Occasional surprises* and *Uninvited*. What they do is in the spoiler section at the end.
 
-**The street**: nothing plays during the first 20 seconds in the office. A group you switch on starts within a few seconds; one you switch off goes quiet at once. Rain makes the street a little rarer and quieter; raise Street volume if heavy rain covers it too much.
+### Rain outside
+
+The 3D rain's look and sound.
+
+- **In both maps:** *Drops* (amount, size, streaks; *Raindrop visibility* is the hangar's - the office has its own), *Veil & air* (the far rain veil, mist, haze around lights), *Sound* (rain heard indoors, drumming on roofs).
+- **Only where Jodi can walk outside (the hangar):** *Splashes* and ripples, *Ground spray*, *Puddles*, wet footsteps, *Screen drops*.
+
+### Jodi
+
+- **Jodi reacts:** she gasps when something happens close to her (a scream right below, a burst, a crash, a close thunder crack) and catches her breath; after an announcement she sighs.
+- **Sneezing:** soaked for a few minutes (*Catches a cold after*), she gets cold: first a cough, then sneezes now and then until she warms up again. *Sneeze now* lets you hear and pick your favourite sneeze, its look and its sound in *Sneeze look & sound*. *Zombies hear her sneeze* (and how far).
+- **Flashlight:** *Flashlight while aiming* - with the Glock or the Revolver she holds the flashlight under the gun; the flashlight key switches it on and off while she aims.
+
+### Water on Jodi
+
+*Wet skin* on, and the rain shows on her: *Getting wet* and *Drying time*, rings, beads, streams, clothes and hair water, **wet hair** (darker, glossier), **splashes on Jodi**, and **drips** from her body (pick the spots: chin, nose, nipples, elbows, knees, fingers…). *Keep wetness between maps*: she arrives in the office as wet as she left the hangar.
+
+### Water: fine-tuning and Hair drips
+
+Everything about the hanging and falling drops, beads and streams, and the drips from her hair tips, for those who want to tune them. Folded by default; the defaults are tuned already.
 
 ---
 
 ## Good to know
 
-- It only does something in **Jodi's Office**. Everywhere else it stays idle.
-- The moon is the office's own sun, turned down and tinted. It sits where the game puts the sun.
-- The glow around a bright moon partly comes from the game's bloom effect.
-- Another mod that changes the office's lights at the same time will fight with it; use one at a time.
-- Rain, drops, lightning and the street cost next to nothing: nothing runs between two sounds, and with Rain and Street sounds off nothing extra happens at all.
-- The rain sound is made by the mod's own scripts; the thunder is built from free recordings from Pixabay. The street plays **the game's own sounds**, straight from your game, so a mod that replaces one of them (a louder gun, a different zombie) is heard in the street too.
+- It works in **Jodi's Office** and the **Abandoned Hangar**. Everywhere else it stays idle.
+- **Light on your PC:** the rain costs about 1 ms on a mid-range PC, and nothing when it's off. A slider at 0 switches its part off completely.
+- The street, the zombies and Jodi's gasps are **the game's own sounds**, straight from your game: a mod that replaces one of them is heard here too.
+- Another mod that changes the office's or the hangar's lights at the same time will fight with it; use one at a time.
+- The wardrobe mirror may show a few raindrops in the doorway toward the office, at some angles. It's the mirror's own short view distance; the rain itself is outside.
 
 ---
 
 ## Credits
 
 - **BenenG47**: the mod.
-- **Zyiakk**: [AltUI](https://github.com/Zyiakk/AltUI), whose Mods tab and quick wheel give Jodi's Sky its page, and the name.
+- **Zyiakk**: [AltUI](https://github.com/Zyiakk/AltUI), whose Mods tab, tabs and quick wheel give Jodi's Sky its page.
 - **The Blueprint Loader's author**: [Blueprint Loader](https://www.nexusmods.com/thekillingantidote/mods/994).
-- **[Pixabay](https://pixabay.com)**: the thunder recordings.
-
-![A red moon over the city](images/redmoon.png)
+- **[Pixabay](https://pixabay.com)**: the thunder recordings and Jodi's three sneezes (Pixabay Content License).
+- **[Claude](https://claude.ai)** (Anthropic's AI): for doing most of the work.
 
 ---
 
@@ -181,6 +114,6 @@ Very rarely, about once every 15–30 minutes in Jodi's Office, a door that has 
 
 Untick **Occasional surprises** to stop it.
 
-**Uninvited** (3.8): about once for every hour Jodi spends in her office (the time adds up across visits), a window breaks somewhere in the flat, muffled through the walls like one more sound from the street, and glass falls under it. Something got in: a **Weeper** crying in the bathroom until she hears Jodi, a **Bloodworm** in the bathroom, or a **Crawler** in the gym. They're the game's own zombies and fight like anywhere else. It never happens in the first two minutes after the office loads, never where Jodi can see, and only one at a time. Untick **Uninvited** and it's gone at once. AltUI followers set to "Attackable" are fair game too.
+**Uninvited**: about once for every hour Jodi spends in her office (the time adds up across visits), a window breaks somewhere in the flat, muffled through the walls like one more sound from the street, and glass falls under it. Something got in: a **Weeper** crying in the bathroom until she hears Jodi, a **Bloodworm** in the bathroom, or a **Crawler** in the gym. They're the game's own zombies and fight like anywhere else. It never happens in the first two minutes after the office loads, never where Jodi can see, and only one at a time. Untick **Uninvited** and it's gone at once. AltUI followers set to "Attackable" are fair game too.
 
 </details>
