@@ -1,4 +1,4 @@
-# Jodi's Sky - Weather Overhaul 4.1
+# Jodi's Sky - Weather Overhaul 4.2
 
 **Day, night, weather and a city that is still out there, for Jodi's Office, the Abandoned Hangar and Testing Grounds in *The Killing Antidote*. Rain and wind that blow, sway and soak her. All set from AltUI.**
 
@@ -7,6 +7,18 @@ A grey storm rolling over the towers, rain slanting past the windows in the gust
 ![Jodi soaked in the rain behind a fence, a red moon over the hangar](images/v4_thumbnail.png)
 
 ---
+
+## What's new in 4.2
+
+- **Much lighter on your PC.** Only what you switch on is loaded: an unticked box loads nothing, when a map starts or while you play, and ticking one loads it at once. On other maps the mod does nothing at all. The load when a map starts is a fraction of what it was, and the first rain no longer hitches.
+- **Drips only up close** (on by default): the drops hanging from Jodi run while the camera is close to her, where you can see them - a big frame-rate gain in normal play. Untick it to keep them all the time.
+- **Rain washes blood & dirt off her skin** (Water on Jodi tab): out in the rain, the blood and dirt on her skin fade, down to a level and at a speed you choose. A new wound still bleeds.
+- **Wet clothes that move:** skirts, coats and other garments with cloth now get their water drawn into the fabric, swinging with the hem; their colour and damage keep following as on a dry garment.
+- **Hair drips remembered per hairstyle**, with a button to reset the current hairstyle's spots.
+- **Puddles** fill faster in the rain and dry slowly after it stops, instead of vanishing with it.
+- **Fixes:** see-through stockings no longer flicker in the rain; the rain and the water now blur with photo mode's depth of field instead of staying sharp; it works alongside AltUI's *Clothes follow the body shape* (no more frozen hair) and leaves AltUI's oil and the shower alone; the wind is only heard when there is wind.
+- **New defaults:** *Hair and clothes wind* 50 %, *Hair freedom* 500 %, *Clothes freedom* 150 %, night from 18:00 with *Follow the clock*.
+- *Screen drops* are gone for now; they'll come back once they look better.
 
 ## What's new in 4.1
 
@@ -35,7 +47,7 @@ A grey storm rolling over the towers, rain slanting past the windows in the gust
 ## Requirements
 
 1. **[Blueprint Loader](https://www.nexusmods.com/thekillingantidote/mods/994)**: starts the mod in the game.
-2. **[AltUI](https://www.nexusmods.com/thekillingantidote/mods/988) 2.11 or newer**: the settings page (tabs and sections) and the quick wheel.
+2. **[AltUI](https://www.nexusmods.com/thekillingantidote/mods/988) 3.0 or newer**: the settings page (tabs and sections) and the quick wheel.
    Without AltUI the mod still applies your last saved settings; you just can't change them.
 
 No UE4SS needed. **Optional:** the *VoiceTranslation* mod turns the loudspeaker's Chinese announcements into English.
@@ -46,7 +58,9 @@ No UE4SS needed. **Optional:** the *VoiceTranslation* mod turns the loudspeaker'
 
 Copy `JodisSky.pak` into the game's `TheKillingAntidote\Mods\` folder (the game must be closed).
 
-**Updating from 3.x?** Replace `JodisSky.pak`; your settings are kept. Everything new starts at its default; "Reset this tab (sliders and switches)" sets that tab to the 4.1 defaults.
+**Updating from 4.1 or 4.0?** Replace `JodisSky.pak`; your settings are kept, and the ones you never changed take the 4.2 defaults by themselves. "Reset this tab (sliders and switches)" sets a tab to the 4.2 defaults.
+
+**Updating from 3.x?** The same: replace `JodisSky.pak`; your settings are kept and everything new starts at its default.
 
 **Updating from 4.0?** *Hair and clothes wind* has a new, stronger scale. If you had changed it, it may look far too strong now: use the Wind tab's *Reset this tab's sliders*.
 
@@ -78,7 +92,7 @@ Open AltUI's **Mods** tab, then **Jodi's Sky**. Every tab ends with three button
 The 3D rain's look and sound.
 
 - **In both maps:** *Drops* (amount, size, streaks; *Raindrop visibility* is the hangar's - the office has its own), *Veil & air* (the far rain veil, mist, haze around lights), *Sound* (rain heard indoors, drumming on roofs).
-- **Only where Jodi can walk outside (the hangar and Testing Grounds):** *Splashes* and ripples, *Ground spray*, *Puddles*, wet footsteps, *Screen drops*.
+- **Only where Jodi can walk outside (the hangar and Testing Grounds):** *Splashes* and ripples, *Ground spray*, *Puddles*, wet footsteps.
 
 ### Wind
 
@@ -94,7 +108,7 @@ The 3D rain's look and sound.
 
 ### Water on Jodi
 
-*Wet skin* on, and the rain shows on her: *Getting wet* and *Drying time*, rings, beads, streams, clothes and hair water, **wet hair** (darker, glossier), **splashes on Jodi**, and **drips** from her body (pick the spots: chin, nose, nipples, elbows, knees, fingers…). *Keep wetness between maps*: she arrives in the office as wet as she left the hangar.
+*Wet skin* on, and the rain shows on her: *Getting wet* and *Drying time*, rings, beads, streams, clothes and hair water, **wet hair** (darker, glossier), **splashes on Jodi**, and **drips** from her body (pick the spots: chin, nose, nipples, elbows, knees, fingers…; *Drips only up close* runs them while the camera is near her). **Rain washes blood & dirt**: out in the rain her skin comes clean, down to *Washes down to* at *Washing speed*. *Keep wetness between maps*: she arrives in the office as wet as she left the hangar, and shows it in the main menu too.
 
 ### Water: fine-tuning and Hair drips
 
@@ -105,7 +119,7 @@ Everything about the hanging and falling drops, beads and streams, and the drips
 ## Good to know
 
 - It works in **Jodi's Office**, the **Abandoned Hangar** and **Testing Grounds**. Everywhere else it stays idle.
-- **Light on your PC:** the rain costs about 1 ms on a mid-range PC, and nothing when it's off. A slider at 0 switches its part off completely.
+- **Light on your PC:** whatever you switch off is not even loaded. The rain costs about 1 ms on a mid-range PC; the drips are the heaviest part, which is why they run only up close by default.
 - The street, the zombies and Jodi's gasps are **the game's own sounds**, straight from your game: a mod that replaces one of them is heard here too.
 - Another mod that changes the office's or the hangar's lights at the same time will fight with it; use one at a time.
 - The wardrobe mirror may show a few raindrops in the doorway toward the office, at some angles. It's the mirror's own short view distance; the rain itself is outside.
